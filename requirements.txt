@@ -1,0 +1,5 @@
+pandas==3.0.0
+pdfplumber==0.11.10
+streamlit==1.67.0
+plotly==6.9.0
+reportlab==4.5.1

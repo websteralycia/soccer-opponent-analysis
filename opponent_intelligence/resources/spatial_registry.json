@@ -1,0 +1,261 @@
+{
+  "reports": {
+    "1fbb086bc03a1bf6308041b45ea249932143a3ed693d0399fcc50bc078f0d9ad": {
+      "team": "Ajax",
+      "matches": 5,
+      "start": "2025-03-02",
+      "end": "2025-03-30",
+      "source": "AFC Ajax.pdf",
+      "maps": [
+        {
+          "key": "recoveries",
+          "label": "Ball recoveries",
+          "file": "spatial/recoveries.png",
+          "page": 16,
+          "bbox": [
+            10,
+            65,
+            285,
+            286
+          ],
+          "kind": "Original PDF map crop; source colors and legend retained",
+          "sha256": "8e04c8ba9130d248a0ee072a7eef04965b902a6faeb585985c0b44b26932675c",
+          "support_file": "spatial/support_recoveries.png",
+          "support_original": "2a_recoveries_losses_by_third.png",
+          "support_sha256": "6770ac0ea91b718f6ce088b4d1615976970f30768c60eb7c32f335e35eb38a71",
+          "context": {
+            "title": "Ball recoveries — location distribution",
+            "original_title": "Ball possession recoveries",
+            "measurement": "Where the team regained possession across the reported sample.",
+            "units": "Large zone % = share of all team recoveries. Small zone number = recoveries per match. Outer labels show shares by third/channel.",
+            "legend": "Source legend: blue = more than league average; red = less than league average. Numerical league benchmarks are not provided.",
+            "orientation": "Source pitch arrow points left to right; outer percentages identify the source thirds and channels.",
+            "limit": "Map team coverage can differ from outfield-player totals. Recovery location alone does not establish block height or pressing triggers."
+          },
+          "display_file": "spatial/display/recoveries.png",
+          "display_sha256": "bb0d98317895ff12038103751a30cc9aff956f06c64e92146e2d151b2be36756"
+        },
+        {
+          "key": "losses",
+          "label": "Possession losses",
+          "file": "spatial/losses.png",
+          "page": 16,
+          "bbox": [
+            10,
+            291,
+            285,
+            513
+          ],
+          "kind": "Original PDF map crop; source colors and legend retained",
+          "sha256": "b6e178a5905597db7d032d2771e67c2cff09ad44abb2e985431e8807dbfdebae",
+          "support_file": "spatial/support_losses.png",
+          "support_original": "2a_recoveries_losses_by_third.png",
+          "support_sha256": "6770ac0ea91b718f6ce088b4d1615976970f30768c60eb7c32f335e35eb38a71",
+          "context": {
+            "title": "Possession losses — location distribution",
+            "original_title": "Ball possession losses",
+            "measurement": "Where possession losses were recorded, not where defensive duels were lost.",
+            "units": "Large zone % = share of all team possession losses. Small zone number = losses per match. Outer labels show shares by third/channel.",
+            "legend": "Source legend: blue = less than league average; red = more than league average. Numerical league benchmarks are not provided.",
+            "orientation": "Original left-to-right source pitch orientation is retained.",
+            "limit": "Possession losses and lost defensive duels have different definitions and denominators. These are not match-specific losses or causal player errors."
+          },
+          "display_file": "spatial/display/losses.png",
+          "display_sha256": "c742023a230c7f9e4f8ced1e55827a84a876a8337834010002d2e5d61b1131d9"
+        },
+        {
+          "key": "dribbles",
+          "label": "Dribble locations",
+          "file": "spatial/dribbles.png",
+          "page": 17,
+          "bbox": [
+            10,
+            95,
+            285,
+            286
+          ],
+          "kind": "Original PDF pitch crop; complete legend restated in viewer",
+          "sha256": "46d5dfa90136b2ab2c81e3cf37e01a80cf886828157234e70333fd270fe3c567",
+          "support_file": "spatial/support_dribbles.png",
+          "support_original": "3a_dribbles_by_channel.png",
+          "support_sha256": "b5fb6ddd2f75a2f334f0c4d7ad56b3921a0e645015ac7c4ba52009e31e2d0a30",
+          "context": {
+            "title": "Dribbling — locations and success",
+            "original_title": "Dribbling",
+            "measurement": "All reported dribble attempts, successful and unsuccessful, across the pitch.",
+            "units": "Large zone % = share of all team dribble attempts, not success rate. Small top number = dribbles per match. Paired inner percentages = successful/unsuccessful attempts within that zone. Outer labels = shares by third/channel.",
+            "legend": "Source legend: green/salmon = successful/unsuccessful; blue/red = better/worse than league average. Numerical league benchmarks are unavailable. These distinct percentages must not be combined.",
+            "orientation": "Original source orientation retained. The full source title and wide legend are shown above the pitch crop.",
+            "limit": "A location share does not show the direction of a carry or prove a route into central space. Team attempt shares differ from the selected-player successful final-third dribble table."
+          },
+          "display_file": "spatial/display/dribbles.png",
+          "display_sha256": "b26f77bf4e4f9f145c4e6fcbc2359abea6ce5186b1a38df73b12314427c53044",
+          "header_file": "spatial/display/dribbles_title_legend.png",
+          "header_bbox": [
+            10,
+            65,
+            345,
+            96
+          ],
+          "header_sha256": "705879744845a94d8de9b552a33f6a821e4db5ebf99ad218f022c14a4e70f5b7"
+        },
+        {
+          "key": "fouls",
+          "label": "Foul locations",
+          "file": "spatial/fouls.png",
+          "page": 16,
+          "bbox": [
+            10,
+            518,
+            285,
+            740
+          ],
+          "kind": "Original PDF map crop; source colors and legend retained",
+          "sha256": "3510bbab1210fda7aa303087af36f2cde3a0e299c06f29c95799c76f0067e2f1",
+          "support_file": "spatial/support_fouls.png",
+          "support_original": "1b_fouls_by_channel.png",
+          "support_sha256": "c458d689df63491af6145da1e3ca476b3216204042913a0f5a56a29902560d81",
+          "context": {
+            "title": "Fouls committed — location distribution",
+            "original_title": "Fouls committed",
+            "measurement": "Locations of fouls committed by the team over the sample.",
+            "units": "Large zone % = share of all team fouls committed. Small zone number = fouls per match; outer labels are third/channel shares.",
+            "legend": "Source legend: blue = less than league average; red = more than league average. Numerical league benchmarks are not provided.",
+            "orientation": "Original left-to-right source pitch orientation is retained.",
+            "limit": "Colors compare reported frequency with a provider benchmark, not overall defensive quality. The map does not identify a pressing trigger."
+          },
+          "display_file": "spatial/display/fouls.png",
+          "display_sha256": "e93185f8b85647d89966bc7f97a9b8db82524abeb28b93902012ed2c4b0de8e4"
+        },
+        {
+          "key": "defensive_duels",
+          "label": "Won defensive actions in own third",
+          "file": "spatial/defensive_duels.png",
+          "page": 12,
+          "bbox": [
+            10,
+            65,
+            285,
+            273
+          ],
+          "kind": "Original PDF map crop; source colors and legend retained",
+          "sha256": "1000d0c70602440642b1b786eae072cdd05b844b8d21de59b77f98f6ac59538c",
+          "context": {
+            "title": "Won own-third defensive actions",
+            "original_title": "Won defensive duels in own third",
+            "measurement": "Reported own-third defensive-duel wins, interceptions and sliding tackles.",
+            "units": "Event symbols and player shirt numbers; no spatial-rate or percentage denominator is supplied.",
+            "legend": "Source legend: circle = defensive duel; square = interception; diamond = sliding tackle. Shirt numbers identify players, not action counts.",
+            "orientation": "Only the source own-third pitch section is shown; preserve its original defending-goal orientation.",
+            "limit": "This mixed-action map is not the denominator for the complete all-area defensive-duel win rate. Marker density is not adjusted for opponent attacking exposure."
+          },
+          "display_file": "spatial/display/defensive_duels.png",
+          "display_sha256": "eff57553da97f6b03e13a3ad4cc20134c2435be2fe32df65c5ef6e9d6a0c5666"
+        },
+        {
+          "key": "lost_duels",
+          "label": "Lost duels in own third",
+          "file": "spatial/lost_duels.png",
+          "page": 12,
+          "bbox": [
+            10,
+            290,
+            285,
+            498
+          ],
+          "kind": "Original PDF map crop; source colors and legend retained",
+          "sha256": "88296900ff8446b4981600ab8d534e1d427b92e8476b0fe23b13bb3d383fde9c",
+          "support_file": "spatial/support_lost_duels.png",
+          "support_original": "1a_lost_duels_by_channel.png",
+          "support_sha256": "a4b50d4d456c877d008efa6feb5f22bb408ad4aed26a9f8f9ab038364cc7af09",
+          "context": {
+            "title": "Lost own-third duels and subsequent annotations",
+            "original_title": "Lost duels in own third",
+            "measurement": "Locations of reported lost own-third duels with provider annotations for shots, fouls and cards.",
+            "units": "Source event markers and shirt numbers, not a rate per opponent attack or a complete opponent xG total.",
+            "legend": "Source legend: outlined square = opponent shot after; outlined diamond = foul; yellow/red diamond = yellow/red card. Shirt numbers identify players.",
+            "orientation": "Only the source own-third pitch section is shown; preserve its original defending-goal orientation.",
+            "limit": "Subsequent-shot annotations do not prove individual fault. No rate is inferred from mixed marker types or estimated opportunity counts."
+          },
+          "display_file": "spatial/display/lost_duels.png",
+          "display_sha256": "7e10dfde06c9a3421f639064e33b1ee7fb3d87c256e0fa3d1eca2419a64b88fd"
+        },
+        {
+          "key": "final_third_recoveries",
+          "label": "Attacking-third recoveries",
+          "file": "spatial/final_third_recoveries.png",
+          "page": 14,
+          "bbox": [
+            10,
+            600,
+            285,
+            794
+          ],
+          "kind": "Original PDF map crop; source title, markers and legend retained",
+          "context": {
+            "title": "Attacking-third recoveries",
+            "original_title": "Recoveries in final third",
+            "measurement": "Source-reported possession recoveries in the opponent’s final third across the report sample.",
+            "units": "Event markers, not zone percentages or per-match rates. Shirt numbers identify players.",
+            "legend": "Source legend: filled square = positional pressing; open circle = with shot; diamond = goal. Original source symbols and colors are retained.",
+            "orientation": "Opponent final third, with the opponent goal at the top; original source orientation retained.",
+            "limit": "Five-match aggregate, not match-specific. The accompanying player table is a selected list and cannot establish a complete team total. Recovery location alone does not establish a pressing mechanism or recurrence."
+          },
+          "display_file": "spatial/display/final_third_recoveries.png",
+          "sha256": "bf70a2cb2492109f093f870f963041eca80b49f6e5389ab4f9b22e953c855e92",
+          "display_sha256": "9bd09163fe7a800a5fa5a7d43e482dd591e101db52dfbdfdcbc08de1adc2cdf4"
+        },
+        {
+          "key": "crosses",
+          "label": "Crosses",
+          "file": "spatial/crosses.png",
+          "display_file": "spatial/display/crosses.png",
+          "page": 14,
+          "bbox": [
+            10,
+            65,
+            285,
+            260
+          ],
+          "kind": "Original PDF map crop; source title, legend and measurements retained",
+          "context": {
+            "title": "Crosses",
+            "original_title": "Crosses",
+            "measurement": "Source-reported crossing actions in the opponent’s final third.",
+            "units": "Source event markers and shirt numbers, not zone percentages or per-match rates.",
+            "legend": "Successful / unsuccessful; dashed line = high cross; solid line = ground cross. Source symbols and shirt numbers are retained.",
+            "orientation": "Opponent final third; opponent goal at the top. Source orientation retained.",
+            "limit": "Five-match aggregate, not match-specific. Associated shots and goals are team outcomes; the named actor is not necessarily the shooter. Selected-player tables are not complete team totals."
+          },
+          "sha256": "312e0107400b674a98a5cef2393f1e82e11bfcf4f8e7b8f3a7bc937e638b9a50",
+          "display_sha256": "58e4513409a4489e19c81f79e623a7ad29ea8e6df50ba1a11ef198db72d3c711"
+        },
+        {
+          "key": "final_third_dribbles",
+          "label": "Successful dribbles in final third",
+          "file": "spatial/final_third_dribbles.png",
+          "display_file": "spatial/display/final_third_dribbles.png",
+          "page": 14,
+          "bbox": [
+            10,
+            398,
+            285,
+            592
+          ],
+          "kind": "Original PDF map crop; source title, legend and measurements retained",
+          "context": {
+            "title": "Successful dribbles in final third",
+            "original_title": "Successful dribbles in final third",
+            "measurement": "Source-reported successful dribbles in the opponent’s final third, with associated shot and goal markers.",
+            "units": "Source event markers and shirt numbers, not zone percentages or per-match rates.",
+            "legend": "Open circle = with shot; diamond = goal. Original source symbols and shirt numbers are retained.",
+            "orientation": "Opponent final third; opponent goal at the top. Source orientation retained.",
+            "limit": "Five-match aggregate, not match-specific. Associated shots and goals are team outcomes; the named actor is not necessarily the shooter. Selected-player tables are not complete team totals."
+          },
+          "sha256": "604ba1fce43c964c95ca85fd6d208b658f0a162e20a2f8ad0526fbdfd8444bb8",
+          "display_sha256": "e23e7527192728255c210efe7f581d07d75a29036b17b1d67192eb2f3f387cde"
+        }
+      ]
+    }
+  }
+}

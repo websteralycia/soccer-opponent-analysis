@@ -1,0 +1,500 @@
+{
+  "01": {
+    "filename": "01_squad.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Group",
+      "Position",
+      "Age",
+      "Foot",
+      "Height cm",
+      "Matches",
+      "Total Minutes",
+      "Average Minutes",
+      "Goals",
+      "Assists",
+      "Yellow Cards",
+      "Red Cards",
+      "Subbed In",
+      "Subbed Out"
+    ]
+  },
+  "02": {
+    "filename": "02_player_general.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes",
+      "Goals",
+      "xG",
+      "Assists",
+      "xA",
+      "Shots",
+      "Shots on Target",
+      "Shots on Target %",
+      "Passes",
+      "Passes Accurate",
+      "Passes Accurate %",
+      "Crosses",
+      "Crosses Accurate",
+      "Crosses Accurate %",
+      "Dribbles",
+      "Dribbles Successful",
+      "Dribbles Successful %",
+      "Duels",
+      "Duels Won",
+      "Duels Won %",
+      "Losses",
+      "Losses Own Half",
+      "Recoveries",
+      "Recoveries Opponent Half",
+      "Touches in Penalty Area",
+      "Yellow Cards",
+      "Red Cards"
+    ]
+  },
+  "03": {
+    "filename": "03_player_duels_set_pieces.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes",
+      "Defensive Duels",
+      "Defensive Duels Won",
+      "Defensive Duels Won %",
+      "Offensive Duels",
+      "Offensive Duels Won",
+      "Offensive Duels Won %",
+      "Aerial Duels",
+      "Aerial Duels Won",
+      "Aerial Duels Won %",
+      "Loose Ball Duels",
+      "Loose Ball Duels Won",
+      "Loose Ball Duels Won %",
+      "Shots Blocked",
+      "Interceptions",
+      "Clearances",
+      "Sliding Tackles",
+      "Sliding Tackles Won",
+      "Sliding Tackles Won %",
+      "Fouls",
+      "Fouls Suffered",
+      "Free Kicks",
+      "Direct Free Kicks",
+      "Corners Served",
+      "Throw-ins"
+    ]
+  },
+  "04": {
+    "filename": "04_player_passing.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes",
+      "Forward Passes",
+      "Forward Passes Accurate",
+      "Forward Passes Accurate %",
+      "Back Passes",
+      "Back Passes Accurate",
+      "Back Passes Accurate %",
+      "Lateral Passes",
+      "Lateral Passes Accurate",
+      "Lateral Passes Accurate %",
+      "Short + Medium Passes",
+      "Short + Medium Passes Accurate",
+      "Short + Medium Passes Accurate %",
+      "Long Passes",
+      "Long Passes Accurate",
+      "Long Passes Accurate %",
+      "Progressive Passes",
+      "Progressive Passes Accurate",
+      "Progressive Passes Accurate %",
+      "Passes to Final Third",
+      "Passes to Final Third Accurate",
+      "Passes to Final Third Accurate %",
+      "Through Passes",
+      "Through Passes Accurate",
+      "Through Passes Accurate %",
+      "Deep Completions",
+      "Key Passes",
+      "Second Assists",
+      "Third Assists",
+      "Shot Assists"
+    ]
+  },
+  "05": {
+    "filename": "05_match_results.csv",
+    "columns": [
+      "Date",
+      "Competition",
+      "Home",
+      "Away",
+      "Home Goals",
+      "Away Goals",
+      "Frankfurt Venue",
+      "Opponent",
+      "Frankfurt Goals",
+      "Opponent Goals",
+      "Result",
+      "Frankfurt Team Width m",
+      "Frankfurt Team Depth m"
+    ]
+  },
+  "06": {
+    "filename": "06_match_lineups.csv",
+    "columns": [
+      "Date",
+      "Match",
+      "Team",
+      "Starter",
+      "Position",
+      "No",
+      "Player",
+      "Subbed On",
+      "Subbed Off",
+      "Goals",
+      "Goal Minutes",
+      "Yellow Card",
+      "Red Card"
+    ]
+  },
+  "07": {
+    "filename": "07_match_events.csv",
+    "columns": [
+      "Date",
+      "Match",
+      "Team",
+      "No",
+      "Player",
+      "Event",
+      "Minute"
+    ]
+  },
+  "08": {
+    "filename": "08_match_formation_periods.csv",
+    "columns": [
+      "Date",
+      "Match",
+      "Team",
+      "Formation",
+      "From",
+      "To"
+    ]
+  },
+  "09": {
+    "filename": "09_formations.csv",
+    "columns": [
+      "Formation",
+      "Usage %",
+      "Metric",
+      "Frankfurt",
+      "Opponent"
+    ]
+  },
+  "10": {
+    "filename": "10_formation_lineups.csv",
+    "columns": [
+      "Formation",
+      "No",
+      "Player"
+    ]
+  },
+  "11": {
+    "filename": "11_defence_won_duels_own_third.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Defensive Duels Won",
+      "% of Team",
+      "Interceptions",
+      "Sliding Tackles"
+    ]
+  },
+  "12": {
+    "filename": "12_defence_lost_duels_own_third.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Duels Lost",
+      "% of Team",
+      "Opponent Shots After",
+      "Opponent Shots After On Target",
+      "Opponent Goals After",
+      "Opponent xG After"
+    ]
+  },
+  "13": {
+    "filename": "13_defence_aerial_duels_own_third.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Aerial Duels",
+      "Aerial Duels Won",
+      "Aerial Duels Won %",
+      "In Own Penalty Area",
+      "In Own Penalty Area Won",
+      "In Own Penalty Area Won %"
+    ]
+  },
+  "14": {
+    "filename": "14_buildup_passer_summary.csv",
+    "columns": [
+      "Player",
+      "Foot",
+      "Passes",
+      "Passes Accurate",
+      "Passes Accurate %",
+      "Dribbles",
+      "Dribbles Successful",
+      "Dribbles Successful %"
+    ]
+  },
+  "15": {
+    "filename": "15_buildup_pass_receivers.csv",
+    "columns": [
+      "Passer",
+      "Receiver No",
+      "Receiver",
+      "Accurate Passes to Teammate",
+      "Pct of All Accurate Passes"
+    ]
+  },
+  "16": {
+    "filename": "16_attack_crosses_takers.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Crosses",
+      "Crosses Successful",
+      "Crosses Successful %",
+      "Ground Crosses / Cutbacks",
+      "Ground Crosses / Cutbacks Successful",
+      "Ground Crosses / Cutbacks Successful %",
+      "xA",
+      "Assists"
+    ]
+  },
+  "17": {
+    "filename": "17_attack_crosses_receivers.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Height cm",
+      "Crosses Received",
+      "Crosses Received Ground",
+      "Crosses Received Ground %",
+      "Shots",
+      "Shots On Target",
+      "xG",
+      "Goals"
+    ]
+  },
+  "18": {
+    "filename": "18_attack_dribbles_final_third.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Successful Dribbles",
+      "% of Team",
+      "Shots After",
+      "Shots After On Target",
+      "xG",
+      "Goals After"
+    ]
+  },
+  "19": {
+    "filename": "19_attack_recoveries_final_third.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Recoveries",
+      "Shots After",
+      "Shots After On Target",
+      "xG",
+      "Goals After"
+    ]
+  },
+  "20": {
+    "filename": "20_finishing_shots_summary.csv",
+    "columns": [
+      "Shot Type",
+      "Shots",
+      "Shots On Target",
+      "Shots On Target %",
+      "xG",
+      "Goals"
+    ]
+  },
+  "21": {
+    "filename": "21_finishing_shots_by_interval.csv",
+    "columns": [
+      "Minutes",
+      "Shots"
+    ]
+  },
+  "22": {
+    "filename": "22_finishing_player_shots.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes",
+      "Shots",
+      "Shots On Target",
+      "Shots On Target %",
+      "xG",
+      "Goals"
+    ]
+  },
+  "23": {
+    "filename": "23_finishing_key_passes.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes",
+      "Key Passes",
+      "xA",
+      "Assists"
+    ]
+  },
+  "24": {
+    "filename": "24_transitions_recoveries.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes on Field",
+      "Total",
+      "Avg per 90"
+    ]
+  },
+  "25": {
+    "filename": "25_transitions_losses.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes on Field",
+      "Total",
+      "Avg per 90"
+    ]
+  },
+  "26": {
+    "filename": "26_transitions_fouls_committed.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes on Field",
+      "Total",
+      "Avg per 90"
+    ]
+  },
+  "27": {
+    "filename": "27_danger_dribbling.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes on Field",
+      "Total",
+      "Avg per 90",
+      "Won",
+      "Lost"
+    ]
+  },
+  "28": {
+    "filename": "28_danger_through_passes.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes on Field",
+      "Total",
+      "Accurate",
+      "Accurate %",
+      "Avg per 90"
+    ]
+  },
+  "29": {
+    "filename": "29_danger_offsides.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Minutes on Field",
+      "Total",
+      "Avg per 90"
+    ]
+  },
+  "30": {
+    "filename": "30_setpieces_corner_takers.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Foot",
+      "Corners",
+      "From Left",
+      "From Right"
+    ]
+  },
+  "31": {
+    "filename": "31_setpieces_corner_shots.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Height cm",
+      "Shots",
+      "xG",
+      "Goals"
+    ]
+  },
+  "32": {
+    "filename": "32_setpieces_free_kick_takers.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Foot",
+      "Free Kicks",
+      "From Left",
+      "From Right"
+    ]
+  },
+  "33": {
+    "filename": "33_setpieces_free_kick_shots.csv",
+    "columns": [
+      "No",
+      "Player",
+      "Height cm",
+      "Shots",
+      "xG",
+      "Goals"
+    ]
+  },
+  "34": {
+    "filename": "34_glossary.csv",
+    "columns": [
+      "Term",
+      "Definition"
+    ]
+  },
+  "35": {
+    "filename": "35_team_totals_success_rates.csv",
+    "columns": [
+      "Source Table",
+      "Metric",
+      "Team Total",
+      "Team Successful",
+      "Team Success %",
+      "Team per Match",
+      "Central Mids Total",
+      "Central Mids Successful",
+      "Central Mids Success %"
+    ]
+  },
+  "36": {
+    "filename": "36_team_totals_counts.csv",
+    "columns": [
+      "Source Table",
+      "Metric",
+      "Team Total",
+      "Team per Match",
+      "Central Mids Total",
+      "Central Mids Share of Team %"
+    ]
+  }
+}

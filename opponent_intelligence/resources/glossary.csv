@@ -1,0 +1,18 @@
+﻿Term,Definition
+Average Positions,Players' positions are calculated as an average point of all actions where they touched the ball.
+xG (Expected Goals),"A metric that assigns to every shot a probability (based on historical stats) of how likely it is to score from the position, type of assist, preceding events etc. A modern metric that allows to study the results of the matches with more stress on predictability of moments creation and less on pure luck."
+Forward / Back / Lateral Pass,Passes are quantified in quadrants of 45°. The passes to the side of the field with the length more than 12 meters are considered lateral.
+Smart Pass,A pass that develops the attack of the team in a creative way.
+Second / Third Assist,A second assist is a pass that immediately leads to an assist. A third assist is a pass that leads to a second assist. Not every assist is guaranteed to have second/ third assists to it.
+Progressive Pass,"A pass that moves the ball considerably forward. The minimal requirement for a progressive path progression towards opponent goal is: 30 meters, if starting and finishing points there are in own half 15 meters, if starting and finishing points there are in other halfs 10 meters, if starting and finishing points there are in opponent half"
+Pass To Final Third,A pass to a zone within 35 meters from the opponent's goal line.
+Defensive Duel,A duel that happened when opponent team was in the possession of the ball.
+Offensive Duel,A duel that happened when the player was in the possession of the ball.
+Reflex Save,A goalkeeper save made with a reflexes move.
+Transition,"Active change in the possession of the ball. Depending on what third of field it took place in, it's divided into Low, Medium and High."
+Attack,A possession that includes at least one action in opponent's final third.
+Counterattack,"An attack that includes a quick transition, attempting to get advantage of the opponent being out of positions."
+Positional Attack,"Any open play (i.e., not from a set piece) attack that is not considered a Counterattack."
+Deep Completion,A pass (excluding crosses) that was received in a 20-meter radius from the opponent goal line.
+PPDA,Opponent passes per defensive action in opponent's final 60% of the pitch. A well- studied metric used to qualify pressing intensity.
+Match Tempo,Number of passes per minute of possession.

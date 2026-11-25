@@ -1,0 +1,865 @@
+{
+  "teams": {
+    "ajax": {
+      "name": "Ajax",
+      "aliases": [
+        "AFC Ajax",
+        "Ajax Amsterdam",
+        "AFC Ajax Amsterdam"
+      ],
+      "file": "images/ajax.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/139.png&h=200&w=200",
+      "license": "User-requested local use of ESPN-supplied team crest; no independent redistribution license asserted.",
+      "sha256": "162b92c7be72a25e154f6c98de214b0c94fb8a71a104f9c1f0a9477eab83ecff",
+      "identity_reference": {
+        "provider": "ESPN",
+        "team_id": "139",
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/teams/139",
+        "verified": true
+      },
+      "verification_note": "Club identity confirmed against ESPN team metadata and downloaded crest visually inspected. Original downloaded image retained."
+    },
+    "psv": {
+      "name": "PSV",
+      "aliases": [
+        "PSV Eindhoven"
+      ],
+      "file": "images/psv.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/148.png&h=200&w=200",
+      "license": "User-requested local use of ESPN-supplied team crest; no independent redistribution license asserted.",
+      "sha256": "495063da08487709843630d373ada76d6c45d09717362c301302d96fc513a01b",
+      "identity_reference": {
+        "provider": "ESPN",
+        "team_id": "148",
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/teams/148",
+        "verified": true
+      },
+      "verification_note": "Club identity confirmed against ESPN team metadata and downloaded crest visually inspected. Original downloaded image retained."
+    },
+    "az": {
+      "name": "AZ",
+      "aliases": [
+        "AZ Alkmaar"
+      ],
+      "file": "images/az.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/140.png&h=200&w=200",
+      "license": "User-requested local use of ESPN-supplied team crest; no independent redistribution license asserted.",
+      "sha256": "433c7c32b13f236fb9766dc897c3f32c4437946c792278c422bf638b4314fe0d",
+      "identity_reference": {
+        "provider": "ESPN",
+        "team_id": "140",
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/teams/140",
+        "verified": true
+      },
+      "verification_note": "Club identity confirmed against ESPN team metadata and downloaded crest visually inspected. Original downloaded image retained."
+    },
+    "eintracht-frankfurt": {
+      "name": "Eintracht Frankfurt",
+      "aliases": [
+        "Frankfurt"
+      ],
+      "file": "images/eintracht-frankfurt.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/125.png&h=200&w=200",
+      "license": "User-requested local use of ESPN-supplied team crest; no independent redistribution license asserted.",
+      "sha256": "beccbdff5ccdfb646f9d7992ad4256cdc8cb5c7720c048dfca13994bc89bc117",
+      "identity_reference": {
+        "provider": "ESPN",
+        "team_id": "125",
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ger.1/teams/125",
+        "verified": true
+      },
+      "verification_note": "Club identity confirmed against ESPN team metadata and downloaded crest visually inspected. Original downloaded image retained."
+    },
+    "pec-zwolle": {
+      "name": "PEC Zwolle",
+      "aliases": [
+        "Zwolle"
+      ],
+      "file": "images/pec-zwolle.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/2565.png&h=200&w=200",
+      "license": "User-requested local use of ESPN-supplied team crest; no independent redistribution license asserted.",
+      "sha256": "0ba675ef3731d0365c3d581cdbe80607b89398db0570ca2f2cc4ad26996cb3b7",
+      "identity_reference": {
+        "provider": "ESPN",
+        "team_id": "2565",
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/teams/2565",
+        "verified": true
+      },
+      "verification_note": "Club identity confirmed against ESPN team metadata and downloaded crest visually inspected. Original downloaded image retained."
+    },
+    "almere-city": {
+      "name": "Almere City",
+      "aliases": [
+        "Almere City FC"
+      ],
+      "file": "images/almere-city.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/teamlogos/soccer/500/5291.png&h=200&w=200",
+      "license": "User-requested local use of ESPN-supplied team crest; no independent redistribution license asserted.",
+      "sha256": "e636eb42af2d2f19b33cf83f870c3f25479211aed74d35104ec6d7343c5ba603",
+      "identity_reference": {
+        "provider": "ESPN",
+        "team_id": "5291",
+        "source": "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.2/teams/5291",
+        "verified": true
+      },
+      "verification_note": "Club identity confirmed against ESPN team metadata and downloaded crest visually inspected. Original downloaded image retained."
+    }
+  },
+  "players": {
+    "ajax:matheus": {
+      "team_id": "ajax",
+      "name": "Matheus",
+      "aliases": [
+        "Matheus"
+      ],
+      "file": "images/players/ajax-matheus-supplied.png",
+      "verified": true,
+      "source": "https://images.fotmob.com/image_resources/playerimages/261348.png",
+      "license": "User-supplied source URL and requested local background/framing edit; no independent redistribution license asserted.",
+      "sha256": "f47e96b1fce11a0d5e2f75a581183f0cfe7a5b0e480dd0219b25432a5fe78145",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "158174",
+        "name": "Matheus",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/158174/matheus",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/158174",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "29/3/1992",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "provider": "User-supplied",
+        "url": "https://images.fotmob.com/image_resources/playerimages/261348.png",
+        "status": "verified_local",
+        "original_file": "sources/user-supplied/matheus.png",
+        "original_sha256": "b7ceb852cbc79815137722227e58e59f6646eb05fd905d5b3655a75a632da1d5",
+        "editing": "Built-in image tool: transparent background extraction and avatar framing; photographic derivative, not pixel-identical original.",
+        "note": "User explicitly assigned this source portrait to the report player. ESPN identity metadata is retained separately."
+      }
+    },
+    "ajax:j-hato": {
+      "team_id": "ajax",
+      "name": "J. Hato",
+      "aliases": [
+        "Jorrel Hato"
+      ],
+      "file": "images/players/ajax-jorrel-hato.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/353951.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "51612887cad3ed910f057e00e7e1358baa217666290ff98c22ba157171373eb1",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "353951",
+        "name": "Jorrel Hato",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/353951/jorrel-hato",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/353951",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "7/3/2006",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/353951.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:y-baas": {
+      "team_id": "ajax",
+      "name": "Y. Baas",
+      "aliases": [
+        "Youri Baas"
+      ],
+      "file": "images/players/ajax-youri-baas.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/305590.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "0f912b250280c51b7c2413f507c8c6357c852fe43eabd204e884c21838e1499e",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "305590",
+        "name": "Youri Baas",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/305590/youri-baas",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/305590",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "17/3/2003",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/305590.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:a-gaaei": {
+      "team_id": "ajax",
+      "name": "A. Gaaei",
+      "aliases": [
+        "Anton Gaaei"
+      ],
+      "file": "images/players/ajax-anton-gaaei.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/333312.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "ee690064e7d82fa6dbb122567ca5a14dd3d69e6c826a4175c9a2ee2ae671dd09",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "333312",
+        "name": "Anton Gaaei",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/333312/anton-gaaei",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/333312",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431"
+        ],
+        "date_of_birth": "19/11/2002",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/333312.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:j-sutalo": {
+      "team_id": "ajax",
+      "name": "J. Šutalo",
+      "aliases": [
+        "Josip Sutalo"
+      ],
+      "file": "images/players/ajax-josip-sutalo-supplied.png",
+      "verified": true,
+      "source": "https://cdn-img.staticzz.com/img/jogadores/new/43/15/544315_josip_sutalo_20251125173248.png",
+      "license": "User-supplied source URL and requested local background/framing edit; no independent redistribution license asserted.",
+      "sha256": "ec50f3f72b9bd6a4e8c8ddd971d2b0f8cdbdcc999f25be6fee52e3d3b87c460c",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "305552",
+        "name": "Josip Sutalo",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/305552/josip-sutalo",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/305552",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "28/2/2000",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "provider": "User-supplied",
+        "url": "https://cdn-img.staticzz.com/img/jogadores/new/43/15/544315_josip_sutalo_20251125173248.png",
+        "status": "verified_local",
+        "original_file": "sources/user-supplied/josip-sutalo.png",
+        "original_sha256": "fef2e8b9072f08aaa1beed2ac2bc03d8c96848b916b9dbce7cc3acd0fddb283c",
+        "editing": "Built-in image tool: transparent background extraction and avatar framing; photographic derivative, not pixel-identical original.",
+        "note": "User explicitly assigned this source portrait to the report player. ESPN identity metadata is retained separately."
+      }
+    },
+    "ajax:d-rugani": {
+      "team_id": "ajax",
+      "name": "D. Rugani",
+      "aliases": [
+        "Daniele Rugani"
+      ],
+      "file": "images/players/ajax-daniele-rugani-supplied.png",
+      "verified": true,
+      "source": "https://cdn3.futbin.com/content/fifa27/img/players/211320.png?fm=png&ixlib=java-2.1.0&verzion=3&w=512&s=c1815881bd48ff3dc185271e0817276b",
+      "license": "User-supplied source URL and requested local background/framing edit; no independent redistribution license asserted.",
+      "sha256": "1e18b06ae05cc5c683c37f03d136f62c72c6f6b654c986e51485d644a50de5f6",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "181673",
+        "name": "Daniele Rugani",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/181673/daniele-rugani",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/181673",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "29/7/1994",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "provider": "User-supplied",
+        "url": "https://cdn3.futbin.com/content/fifa27/img/players/211320.png?fm=png&ixlib=java-2.1.0&verzion=3&w=512&s=c1815881bd48ff3dc185271e0817276b",
+        "status": "verified_local",
+        "original_file": "sources/user-supplied/daniele-rugani.webp",
+        "original_sha256": "d7ef9ded55c90bc6195aab52e3759c9bcdfb956327d3abfea44647a016e7e928",
+        "editing": "Built-in image tool: transparent background extraction and avatar framing; photographic derivative, not pixel-identical original.",
+        "note": "User explicitly assigned this source portrait to the report player. ESPN identity metadata is retained separately."
+      }
+    },
+    "ajax:lucas-rosa": {
+      "team_id": "ajax",
+      "name": "Lucas Rosa",
+      "aliases": [
+        "Lucas Oliveira Rosa",
+        "Lucas Rosa"
+      ],
+      "file": "images/players/ajax-lucas-rosa.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/351281.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "a341eee40fb167ced9c6f834021d441b5354026d9d1a6872979dd482a77d71e4",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "351281",
+        "name": "Lucas Rosa",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/351281/lucas-rosa",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/351281",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "3/4/2000",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/351281.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:a-kaplan": {
+      "team_id": "ajax",
+      "name": "A. Kaplan",
+      "aliases": [
+        "Ahmetcan Kaplan"
+      ],
+      "file": "images/players/ajax-ahmetcan-kaplan.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/306806.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "4f824f15142f444481d80a8e736e1720efeb25f0353885703a7c03313d356caf",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "306806",
+        "name": "Ahmetcan Kaplan",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/306806/ahmetcan-kaplan",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/306806",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "16/1/2003",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/306806.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:d-janse": {
+      "team_id": "ajax",
+      "name": "D. Janse",
+      "aliases": [
+        "Dies Janse"
+      ],
+      "file": "images/players/ajax-dies-janse.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/368818.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "51f77d843f3780d9cb6d8c07ae5492e9562908a0c57f93eedbc669e308f65039",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "368818",
+        "name": "Dies Janse",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/368818/dies-janse",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/368818",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "17/1/2006",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/368818.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:o-wijndal": {
+      "team_id": "ajax",
+      "name": "O. Wijndal",
+      "aliases": [
+        "Owen Wijndal"
+      ],
+      "file": "images/players/ajax-owen-wijndal.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/241392.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "d86c52fc41baba2b65ed092baa14730b133444c3e3cf8406c13ac2a75be40593",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "241392",
+        "name": "Owen Wijndal",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/241392/owen-wijndal",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/241392",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "28/11/1999",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/241392.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:k-taylor": {
+      "team_id": "ajax",
+      "name": "K. Taylor",
+      "aliases": [
+        "Kenneth Taylor"
+      ],
+      "file": "images/players/ajax-kenneth-taylor.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/282228.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "f3704c78f42eecbfafdc3bd19e7dc69f4c561dc93b2fef369f0c9aa392ab4cac",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "282228",
+        "name": "Kenneth Taylor",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/282228/kenneth-taylor",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/282228",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "16/5/2002",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/282228.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:d-klaassen": {
+      "team_id": "ajax",
+      "name": "D. Klaassen",
+      "aliases": [
+        "Davy Klaassen"
+      ],
+      "file": "images/players/ajax-davy-klaassen.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/168993.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "bc3730605804c669c1e56a4220c90c160ae2e71a1242809f8515552abe6cb579",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "168993",
+        "name": "Davy Klaassen",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/168993/davy-klaassen",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/168993",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "21/2/1993",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/168993.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:j-henderson": {
+      "team_id": "ajax",
+      "name": "J. Henderson",
+      "aliases": [
+        "Jordan Henderson"
+      ],
+      "file": "images/players/ajax-jordan-henderson-supplied.png",
+      "verified": true,
+      "source": "https://ajax.bbvms.com/mediaclip/5791955/pthumbnail/832/1479.webp?cpPassThrough",
+      "license": "User-supplied source URL and requested local background/framing edit; no independent redistribution license asserted.",
+      "sha256": "fe444250ad12655a28bc28799ab2339e8b7564ce83b8bbde31a7a7274da9c09f",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "127262",
+        "name": "Jordan Henderson",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/127262/jordan-henderson",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/127262",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "17/6/1990",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "provider": "User-supplied",
+        "url": "https://ajax.bbvms.com/mediaclip/5791955/pthumbnail/832/1479.webp?cpPassThrough",
+        "status": "verified_local",
+        "original_file": "sources/user-supplied/jordan-henderson.webp",
+        "original_sha256": "7263a99b6a34918c10e59cfdf6d665dc54091782a0394ff33ff5fb58c2bbeec0",
+        "editing": "Built-in image tool: transparent background extraction and avatar framing; photographic derivative, not pixel-identical original.",
+        "note": "User explicitly assigned this source portrait to the report player. ESPN identity metadata is retained separately."
+      }
+    },
+    "ajax:j-mokio": {
+      "team_id": "ajax",
+      "name": "J. Mokio",
+      "aliases": [
+        "Jorthy Mokio"
+      ],
+      "file": "images/players/ajax-jorthy-mokio.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/381074.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "7d37d558557fdff7b8c05bb30d596f73fe3947f739b7bcaf3c61e9ad59870b03",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "381074",
+        "name": "Jorthy Mokio",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/381074/jorthy-mokio",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/381074",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "29/2/2008",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/381074.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:o-edvardsen": {
+      "team_id": "ajax",
+      "name": "O. Edvardsen",
+      "aliases": [
+        "Oliver Edvardsen"
+      ],
+      "file": "images/players/ajax-oliver-edvardsen.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/295861.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "e8885fd74099e93ec91787637bf029e86055551f61b7181bf380730654e49c77",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "295861",
+        "name": "Oliver Edvardsen",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/295861/oliver-edvardsen",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/295861",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "19/3/1999",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/295861.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:k-fitz-jim": {
+      "team_id": "ajax",
+      "name": "K. Fitz-Jim",
+      "aliases": [
+        "Kian Fitz-Jim"
+      ],
+      "file": "images/players/ajax-kian-fitz-jim.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/305589.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "e472ff6d527296be62c92ef2e9698511cb17a071394cd7b49a6fd3ceeb3671ac",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "305589",
+        "name": "Kian Fitz-Jim",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/305589/kian-fitz-jim",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/305589",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "5/7/2003",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/305589.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:b-van-den-boomen": {
+      "team_id": "ajax",
+      "name": "B. van den Boomen",
+      "aliases": [
+        "Branco van den Boomen"
+      ],
+      "file": "images/players/ajax-branco-van-den-boomen.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/196234.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "74a5c6cf0f8ac6085db6eeca21db894a197dde51cbfdc59c2ea85d47997d057d",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "196234",
+        "name": "Branco van den Boomen",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/196234/branco-van-den-boomen",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/196234",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "21/7/1995",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/196234.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:m-godts": {
+      "team_id": "ajax",
+      "name": "M. Godts",
+      "aliases": [
+        "Mika Godts"
+      ],
+      "file": "images/players/ajax-mika-godts-supplied.png",
+      "verified": true,
+      "source": "https://cdn-img.staticzz.com/img/planteis/new/52/11/11535211_mika_godts_20241126010145.jpg",
+      "license": "User-supplied source URL and requested local background/framing edit; no independent redistribution license asserted.",
+      "sha256": "6dc71bb588180c73e8b81a197b8b2d1ea41f21c23a95622ea7d8ece5ca6e8da4",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "353363",
+        "name": "Mika Godts",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/353363/mika-godts",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/353363",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "7/6/2005",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "provider": "User-supplied",
+        "url": "https://cdn-img.staticzz.com/img/planteis/new/52/11/11535211_mika_godts_20241126010145.jpg",
+        "status": "verified_local",
+        "original_file": "sources/user-supplied/mika-godts.jpg",
+        "original_sha256": "7329775e22e6a77b9353b1308ffad6137b4c7ae9770aaf6466804eb4a9db6dd4",
+        "editing": "Built-in image tool: transparent background extraction and avatar framing; photographic derivative, not pixel-identical original.",
+        "note": "User explicitly assigned this source portrait to the report player. ESPN identity metadata is retained separately."
+      }
+    },
+    "ajax:s-berghuis": {
+      "team_id": "ajax",
+      "name": "S. Berghuis",
+      "aliases": [
+        "Steven Berghuis"
+      ],
+      "file": "images/players/ajax-steven-berghuis.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/149577.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "91985527942ec2cb8d676e4f95d8fb6e378bd746e0bd23bb1781e406b0058178",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "149577",
+        "name": "Steven Berghuis",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/149577/steven-berghuis",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/149577",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "19/12/1991",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/149577.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:b-brobbey": {
+      "team_id": "ajax",
+      "name": "B. Brobbey",
+      "aliases": [
+        "Brian Brobbey"
+      ],
+      "file": "images/players/ajax-brian-brobbey.png",
+      "verified": true,
+      "source": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/282229.png&w=350&h=254",
+      "license": "User-requested local use of ESPN-supplied player headshot; no independent redistribution license asserted.",
+      "sha256": "b18de5646d6103fc172d7410c5f847add729ca5fd3ea5d0b397b73d028822fa8",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "282229",
+        "name": "Brian Brobbey",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/282229/brian-brobbey",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/282229",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "1/2/2002",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "url": "https://a.espncdn.com/combiner/i?img=/i/headshots/soccer/players/full/282229.png&w=350&h=254",
+        "status": "verified_local",
+        "note": "ESPN metadata links this image; visually inspected real portrait."
+      }
+    },
+    "ajax:b-traore": {
+      "team_id": "ajax",
+      "name": "B. Traoré",
+      "aliases": [
+        "Bertrand Traoré"
+      ],
+      "file": "images/players/ajax-bertrand-traore-supplied.png",
+      "verified": true,
+      "source": "https://cdn-img.staticzz.com/img/jogadores/new/63/76/156376_bertrand_traore_20241126004754.jpg",
+      "license": "User-supplied source URL and requested local background/framing edit; no independent redistribution license asserted.",
+      "sha256": "46f077a6b7fc91001da7df51695ab007f8f0412539861f66f16d0726f25208d7",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "169661",
+        "name": "Bertrand Traoré",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/169661/bertrand-traore",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/169661",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "6/9/1995",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "provider": "User-supplied",
+        "url": "https://cdn-img.staticzz.com/img/jogadores/new/63/76/156376_bertrand_traore_20241126004754.jpg",
+        "status": "verified_local",
+        "original_file": "sources/user-supplied/bertrand-traore.jpg",
+        "original_sha256": "f13226247c92257c23fe91d5d4b1a24ffee644710f256cf2f84219edc3e7a42a",
+        "editing": "Built-in image tool: transparent background extraction and avatar framing; photographic derivative, not pixel-identical original.",
+        "note": "User explicitly assigned this source portrait to the report player. ESPN identity metadata is retained separately."
+      }
+    },
+    "ajax:d-konadu": {
+      "team_id": "ajax",
+      "name": "D. Konadu",
+      "aliases": [
+        "Don-Angelo Konadu"
+      ],
+      "file": "images/players/ajax-don-angelo-konadu-supplied.png",
+      "verified": true,
+      "source": "https://assets.bundesliga.com/player/dfl-obj-j0209m-dfl-clu-j0003n-dfl-sea-0001k9.png?fit=256,256",
+      "license": "User-supplied source URL and requested local background/framing edit; no independent redistribution license asserted.",
+      "sha256": "d4eaef74f2d4565cdb90a0928a355ff01a08df7aee8efc4b08f6aa34a130a831",
+      "identity_reference": {
+        "provider": "ESPN",
+        "player_id": "386841",
+        "name": "Don-Angelo Konadu",
+        "verified": true,
+        "source": "https://www.espn.com/soccer/player/_/id/386841/don-angelo-konadu",
+        "metadata_source": "https://site.api.espn.com/apis/common/v3/sports/soccer/athletes/386841",
+        "historical_ajax_sources": [
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705413",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705428",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705431",
+          "https://site.api.espn.com/apis/site/v2/sports/soccer/ned.1/summary?event=705447"
+        ],
+        "date_of_birth": "3/5/2006",
+        "verification": "High confidence: report name, historical Ajax match roster, ESPN athlete profile and reported role cross-checked; no jersey-number-only matching."
+      },
+      "image_reference": {
+        "provider": "User-supplied",
+        "url": "https://assets.bundesliga.com/player/dfl-obj-j0209m-dfl-clu-j0003n-dfl-sea-0001k9.png?fit=256,256",
+        "status": "verified_local",
+        "original_file": "sources/user-supplied/don-angelo-konadu.png",
+        "original_sha256": "644716e77466b8d27bf0a8317919af703d4a1e136dc92e9b55e72312fe87e4d3",
+        "editing": "Built-in image tool: transparent background extraction and avatar framing; photographic derivative, not pixel-identical original.",
+        "note": "User explicitly assigned this source portrait to the report player. ESPN identity metadata is retained separately."
+      }
+    }
+  }
+}
